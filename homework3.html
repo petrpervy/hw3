@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Space Cards</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: sans-serif;
+            padding: 30px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            width: 260px;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            border: 1px solid #ddd;
+        }
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .text-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .text-content h2 {
+            margin: 0 0 10px 0;
+        }
+        .badge {
+            display: inline-block;
+            background: #4a3fbf;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin-top: 10px;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Space & Relativity</h1>
+
+<div class="cards">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=400&h=300&fit=crop" alt="Black Hole">
+        <div class="text-content">
+            <h2>Black Holes</h2>
+            <p>A region in space where gravity is so strong that nothing can escape, not even light.</p>
+            <a class="badge" href="https://en.wikipedia.org/wiki/Black_hole" target="_blank">Wikipedia</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=400&h=300&fit=crop" alt="Milky Way">
+        <div class="text-content">
+            <h2>The Milky Way</h2>
+            <p>Our home galaxy, containing over 100 billion stars across 100,000 light-years.</p>
+            <a class="badge" href="https://en.wikipedia.org/wiki/Milky_Way" target="_blank">Wikipedia</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=400&h=300&fit=crop" alt="Neutron Star">
+        <div class="text-content">
+            <h2>Neutron Stars</h2>
+            <p>Collapsed cores of giant stars. A teaspoon of one would weigh around 6 billion tons.</p>
+            <a class="badge" href="https://en.wikipedia.org/wiki/Neutron_star" target="_blank">Wikipedia</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=400&h=300&fit=crop" alt="Einstein">
+        <div class="text-content">
+            <h2>Time Dilation</h2>
+            <p>Einstein showed that time actually moves slower near heavy objects and at high speeds.</p>
+            <a class="badge" href="https://en.wikipedia.org/wiki/Time_dilation" target="_blank">Wikipedia</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
